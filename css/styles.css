@@ -17,49 +17,60 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     background-color: #fff;
-    color: var(--primary-te: var(var(--title-text-color)))
+    color: var(var(--primary-text-color))
 }
-
+address {
+    display: block;
+    font-style: normal;
+  }
+.hero {
+    background-color: #2F303A;
+}
 .container {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 }
 /* site nav */
+.site-nav {
+    list-style-type: none;
+}
 .site-nav .link {
     color: inherit;
-    color:: var(var(--title-text-color));
+    color: var(var(--title-text-color));
     text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-text-color);
 }
-/* cont-nav */
-.cont-nav .link {
-    color: inherit;
-    color: var(--primary-tex var(--accent-text-color));
-    text-decoration: none;
-}
-.cont-nav .link:hover,
-.cont-nav .link:focus {
-    color: var(--accent-text-color);
-}
 /* hero title */
 .hero-title {
     color: var(--white-text-color);
 }
+.button {
+    cursor: pointer;
+    border: transparent;
+    position: absolute;
+    background: #2196F3;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    color: var(--white-text-color);
+    border-radius: 4px;
+}
 /* section-title */
 .section-title {
     color: var(var(--title-text-color));
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
 }
 /* feature-title */
 .title {
     color: var(var(--title-text-color));
-    font-style: normal;
     font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
 }
 .logo {
     text-decoration: none;
@@ -79,10 +90,14 @@
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
-.hero {
-    background-color: #2F303A;
+.feature {
+    list-style-type: none;
 }
+
 .filter-button {
+    cursor: pointer;
+    border: transparent;
+    padding: 6px 22px;
     background-color: #f5f4fa;
     border-radius: 4px;
     font-family: inherit;
@@ -100,4 +115,3 @@
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
-
