@@ -1,0 +1,103 @@
+/* цвет основного текста #757575*/
+/* цвет вторичного текста #212121*/
+/* белый FFFFFF*/
+/* акцент #2196F3 - #000000*/
+/* Вторичный цвет фона #2F303A */
+/* Вторичный цвет фона# F5F4FA */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --white-text-color: #fff;
+    --accent-text-color: #2196f3
+}
+.page {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    background-color: #fff;
+    color: var(--primary-te: var(var(--title-text-color)))
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* site nav */
+.site-nav .link {
+    color: inherit;
+    color:: var(var(--title-text-color));
+    text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-text-color);
+}
+/* cont-nav */
+.cont-nav .link {
+    color: inherit;
+    color: var(--primary-tex var(--accent-text-color));
+    text-decoration: none;
+}
+.cont-nav .link:hover,
+.cont-nav .link:focus {
+    color: var(--accent-text-color);
+}
+/* hero title */
+.hero-title {
+    color: var(--white-text-color);
+}
+/* section-title */
+.section-title {
+    color: var(var(--title-text-color));
+}
+/* feature-title */
+.title {
+    color: var(var(--title-text-color));
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+.logo {
+    text-decoration: none;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color:var(--accent-text-color);
+}
+.logo-link {
+    text-decoration: none;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.hero {
+    background-color: #2F303A;
+}
+.filter-button {
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--white-text-color);
+    background: var(--accent-text-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
