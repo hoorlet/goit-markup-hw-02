@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="./css/styles.css">
   </head>
 
-  <body class="page">
-    <header>
-       
+  <body class="page-s">
+    <header class="header">
+        <div class="container-header container">
             <a class="logo-link" 
             href="./index.html">Web<span class="logo-d">Studio</span></a>
             <nav class="nav">
@@ -24,11 +24,11 @@
                             href="./index.html">Студия</a>
                     </li>
                     <li class="nav-item">
-                        <a  class="nav-link"
+                        <a  class="nav-link-ps"
                             href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="nav-item">
-                        <a  class="nav-link" 
+                        <a  class="nav-link-k" 
                             href="Контакты">Контакты</a>
                     </li>
                 </ul>
@@ -43,11 +43,12 @@
                         href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
+        </div>
     </header> 
     <main> 
 
         <section class="hero">
-            <div class="container">
+            <div class="container-hero">
                 <h1 class="hero-title">
                     ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
                 <button class="button" type="button">Заказать услугу</button>
@@ -55,28 +56,28 @@
         </section>
         
         <section class="section">
-            <div class="peculiarities">
-                <h2 class="section-title">Заголовок</h2>
-                <ul class="feature">
-                    <li class="feature-item">
-                        <h3 class="title">внимание к деталям</h3>
-                        <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <div class="container">
+                <h2 class="visually-hidden">Заголовок</h2>
+                <ul class="pecul-list">
+                    <li class="pecul-item">
+                        <h3 class="pecul-title">внимание к деталям</h3>
+                        <p class="pecul-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li class="feature-item">
-                        <h3 class="title">пунктуальность</h3>
-                        <p class="text">
+                    <li class="pecul-item">
+                        <h3 class="pecul-title">пунктуальность</h3>
+                        <p class="pecul-text">
                         Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                         </p>
                     </li>
-                    <li class="feature-item">
-                        <h3 class="title">планирование</h3>
-                        <p class="text">
+                    <li class="pecul-item">
+                        <h3 class="pecul-title">планирование</h3>
+                        <p class="pecul-text">
                         Равным образом консультация с широким активом в значительной степени обуславливает.
                         </p>
                     </li>
-                    <li class="feature-item">
-                        <h3 class="title">современные технологии</h3>
-                        <p class="text">
+                    <li class="pecul-item">
+                        <h3 class="pecul-title">современные технологии</h3>
+                        <p class="pecul-text">
                         Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                         </p>
                     </li>
@@ -84,9 +85,9 @@
             </div>
         </section>
       
-        <section class="section">
-            <div class="job">
-                <h2 class="section-title">Чем мы занимаемся</h2>
+        <section class="section-feature">
+            <div class="container">
+                <h2 class="feature-title">Чем мы занимаемся</h2>
                 <ul class="feature">
                     <li class="feature-item">
                         <img src="./img/1.1.jpg" 
@@ -107,40 +108,48 @@
             </div>
         </section>
        
-        <section class="section">
-            <div class="team"> 
+        <section class="section-team">
+            <div class="container"> 
                 <h2 class="section-title">Наша команда</h2>
-                <ul class="feature">
-                    <li class="feature-item">
+                <ul class="team-list">
+                    <li class="team-item">
                         <img src="./img/2.1.jpg" 
                             alt="UI Designer" 
                             width="270" 
                             height="260">
-                        <h3 class="title">Игорь Демьяненко</h3>
-                        <p class="text">Product Designer</p>
+                            <div class="tumba">
+                                <h3 class="team-title">Игорь Демьяненко</h3>
+                                <p class="team-text">Product Designer</p>
+                            </div>
                     </li>
-                    <li class="feature-item">
+                    <li class="team-item">
                         <img src="./img/2.2.jpg" 
                             alt="Marketing" width="270" 
                             height="260">
-                        <h3 class="title">Ольга Репина</h3>
-                        <p class="text">Frontend Developer</p>
+                            <div class="tumba">
+                                <h3 class="team-title">Ольга Репина</h3>
+                                <p class="team-text">Frontend Developer</p>
+                            </div>
                     </li>
-                    <li class="feature-item">
+                    <li class="team-item">
                         <img src="./img/2.3.jpg" 
                             alt="Frontend Developer" 
                             width="270" 
                             height="260">
-                        <h3 class="title">Николай Тарасов</h3>
-                        <p class="text">Marketing</p>
+                            <div class="tumba">
+                                <h3 class="team-title">Николай Тарасов</h3>
+                                <p class="team-text">Marketing</p>
+                            </div>
                     </li>
-                    <li class="feature-item">
+                    <li class="team-item">
                         <img src="./img/2.4.jpg" 
                             alt="Product Designer" 
                             width="270" 
                             height="260">
-                        <h3 class="title">Михаил Ермаков</h3>
-                        <p class="text">UI Designer</p>
+                            <div class="tumba">
+                                <h3 class="team-title">Михаил Ермаков</h3>
+                                <p class="team-text">UI Designer</p>
+                            </div>
                     </li>
                 </ul>
             </div>
@@ -150,14 +159,18 @@
 
 
     <footer class="section-f">
-        <a class="logo-link" href="/index.html">Web<span class="logo-white">Studio</span></a>
-      <address class="address">
-          <ul class="nav-list">
-              <li><a class="cont-link-a" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-              <li><a class="cont-link" href="mailto:info@example.com">info@example.com</a></li>
-              <li><a class="cont-link" href="tel:+380991111111">+380991111111</a></li>
-          </ul>
-      </address>
+        <div class="container footer">
+            <a class="logo-link-f" href="/index.html">Web<span class="logo-white">Studio</span></a>
+            <address class="address">
+                <ul class="nav-list-f">
+                    <li class="nav-item-f">
+                        <a class="cont-link-fa" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li class="nav-item-f">
+                        <a class="cont-link-f" href="mailto:info@example.com">info@example.com</a></li>
+                    <li class="nav-item-f">
+                        <a class="cont-link-f" href="tel:+380991111111">+380991111111</a></li>
+                </ul>
+        </div>
     </footer>
   </body>
 </html>
